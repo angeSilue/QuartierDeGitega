@@ -1,0 +1,16 @@
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\bin\Debug\netstandard2.0\AppareilApple.deps.json
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\bin\Debug\netstandard2.0\AppareilApple.dll
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\bin\Debug\netstandard2.0\AppareilApple.pdb
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\AppareilApple.csprojAssemblyReference.cache
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\AppareilAppleContentPage.xaml.g.cs
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\AppareilApple.csproj.CoreCompileInputs.cache
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\AppareilApple.AssemblyInfoInputs.cache
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\AppareilApple.AssemblyInfo.cs
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\XamlC.stamp
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\AppareilApple.dll
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\AppareilApple.pdb
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\IphoneContentPage.xaml.g.cs
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\MacbookContentPage.xaml.g.cs
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\AccessoiresContentPage.xaml.g.cs
+D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\obj\Debug\netstandard2.0\IpadContentPage.xaml.g.cs
