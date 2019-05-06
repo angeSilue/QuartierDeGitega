@@ -130,10 +130,10 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <None Include="Images\resizeAccessoire.jpg" />
-    <None Include="Images\resizeipad.jpg" />
-    <None Include="Images\resizeiphone.jpg" />
-    <None Include="Images\resizemacbook.jpg" />
+    <Content Include="Images\resizeAccessoire.jpg" />
+    <Content Include="Images\resizeipad.jpg" />
+    <Content Include="Images\resizeiphone.jpg" />
+    <Content Include="Images\resizemacbook.jpg" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>

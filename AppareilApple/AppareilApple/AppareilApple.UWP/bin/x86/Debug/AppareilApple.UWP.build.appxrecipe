@@ -646,6 +646,18 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Images\resizeAccessoire.jpg">
+      <PackagePath>Images\resizeAccessoire.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Images\resizeipad.jpg">
+      <PackagePath>Images\resizeipad.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Images\resizeiphone.jpg">
+      <PackagePath>Images\resizeiphone.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Images\resizemacbook.jpg">
+      <PackagePath>Images\resizemacbook.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

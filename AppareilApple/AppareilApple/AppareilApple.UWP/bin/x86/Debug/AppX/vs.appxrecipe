@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-03T18:56:12.988</Modified>
+      <Modified>2019-05-06T17:43:15.756</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\bin\x86\Debug\AppareilApple.UWP.exe">
       <PackagePath>entrypoint\AppareilApple.UWP.exe</PackagePath>
-      <Modified>2019-05-03T18:56:12.017</Modified>
+      <Modified>2019-05-06T17:43:14.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\angel\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -712,7 +712,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple\bin\Debug\netstandard2.0\AppareilApple.dll">
       <PackagePath>AppareilApple.dll</PackagePath>
-      <Modified>2019-05-03T18:56:05.936</Modified>
+      <Modified>2019-05-06T17:43:07.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -853,6 +853,22 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-05-02T18:22:56.971</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Images\resizeAccessoire.jpg">
+      <PackagePath>Images\resizeAccessoire.jpg</PackagePath>
+      <Modified>2019-05-02T20:33:58.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Images\resizeipad.jpg">
+      <PackagePath>Images\resizeipad.jpg</PackagePath>
+      <Modified>2019-05-02T20:33:58.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Images\resizeiphone.jpg">
+      <PackagePath>Images\resizeiphone.jpg</PackagePath>
+      <Modified>2019-05-02T20:33:58.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Images\resizemacbook.jpg">
+      <PackagePath>Images\resizemacbook.jpg</PackagePath>
+      <Modified>2019-05-02T20:33:58.544</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-05-02T18:22:56.978</Modified>
@@ -863,11 +879,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-05-03T18:56:11.803</Modified>
+      <Modified>2019-05-06T17:43:14.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-05-03T18:56:11.803</Modified>
+      <Modified>2019-05-06T17:43:14.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -879,11 +895,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-05-02T20:34:17.302</Modified>
+      <Modified>2019-05-06T17:18:54.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\drive google\YEAR 2\session3\PROG1335\Projet\AppareilApple\AppareilApple\AppareilApple.UWP\bin\x86\Debug\Core\AppareilApple.UWP.exe">
       <PackagePath>AppareilApple.UWP.exe</PackagePath>
-      <Modified>2019-05-03T18:56:12.979</Modified>
+      <Modified>2019-05-06T17:43:15.747</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

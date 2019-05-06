@@ -20,13 +20,11 @@ namespace AppareilApple
 
         }
 
-
         Label ApplecareLlabel;
         Label memoireLlabel;
         Label ApplecareLabel;
         Label memoireLabel;
-        string ApplecareString;
-        string memoireString;
+        
 
         public void InitControlle(string titre, string membres)
         {
@@ -51,7 +49,7 @@ namespace AppareilApple
 
             ApplecareLabel = new Label
             {
-                Text = ApplecareString,
+                //Text = ApplecareString,
                 TextColor = Color.Green,
                 FontSize = 16,
                 HorizontalOptions = LayoutOptions.Start
@@ -59,7 +57,7 @@ namespace AppareilApple
 
             memoireLabel = new Label
             {
-                Text = memoireString,
+                //Text = memoireString,
                 TextColor = Color.Green,
                 FontSize = 16,
                 HorizontalOptions = LayoutOptions.Start
@@ -90,17 +88,14 @@ namespace AppareilApple
             ouinonSwitch.Toggled += OuinonSwitch_Toggled;
             
 
-            Slider memoireSlider = new Slider(0,10,0)
+            Slider memoireSlider = new Slider(64,1000,64)
             {
-                Minimum = 0,
-                Maximum = 10,                
+                WidthRequest = 200,                
                 HorizontalOptions = LayoutOptions.Center
             };
             memoireSlider.ValueChanged += MemoireSlider_ValueChanged;
             
-            //memoireString = memoireSlider.Value;
-
-            // Bouton revenir à la page précédente
+            
             Button pagePrecedenteButton = new Button
             {
                 Text = "Page précédente",
@@ -129,7 +124,7 @@ namespace AppareilApple
 
         private void MemoireSlider_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            //memoireLabel.Text = e.NewValue;
+            memoireLabel.Text = e.NewValue.ToString();
             //throw new NotImplementedException();
         }
 

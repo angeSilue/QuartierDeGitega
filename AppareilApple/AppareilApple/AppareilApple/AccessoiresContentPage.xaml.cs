@@ -20,6 +20,8 @@ namespace AppareilApple
         }
 
         Label dateLivraisonLabel;
+        TimePicker livraisonTimePicker;
+        DatePicker livraisonDatePicker;
 
         public void InitControlle(string titre, string membres)
         {
@@ -50,7 +52,7 @@ namespace AppareilApple
                 HorizontalOptions = LayoutOptions.Start
             };
 
-            DatePicker livraisonDatePicker = new DatePicker
+            livraisonDatePicker = new DatePicker
             {
                
                 HorizontalOptions = LayoutOptions.Center
@@ -67,7 +69,7 @@ namespace AppareilApple
                 HorizontalOptions = LayoutOptions.Start
             };
 
-            TimePicker livraisonTimePicker = new TimePicker
+            livraisonTimePicker = new TimePicker
             {
                 
                 HorizontalOptions = LayoutOptions.Center
@@ -75,7 +77,7 @@ namespace AppareilApple
 
             //faire afficher la bonne Date(faire fonctionner le time picker)
 
-            //livraisonTimePicker.;
+            livraisonTimePicker.PropertyChanged += LivraisonTimePicker_PropertyChanged; 
 
 
             // Bouton revenir à la page précédente            
@@ -103,11 +105,16 @@ namespace AppareilApple
             pagePrecedenteButton.Clicked += PagePrecedenteButton_Clicked;
         }
 
-        
+        private void LivraisonTimePicker_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            dateLivraisonLabel.Text = livraisonDatePicker.Date.ToLongDateString() +" "+ livraisonTimePicker.Time.ToString("t");
+            //dateLivraisonLabel.Text = livraisonDatePicker.t + " ";
+            //throw new NotImplementedException();
+        }
 
         private void LivraisonDatePicker_DateSelected(object sender, DateChangedEventArgs e)
         {
-            dateLivraisonLabel.Text = e.NewDate.ToLongDateString();            
+            dateLivraisonLabel.Text = livraisonDatePicker.Date.ToLongDateString() + " " + livraisonTimePicker.Time.ToString("t"); ;            
             
         }
 

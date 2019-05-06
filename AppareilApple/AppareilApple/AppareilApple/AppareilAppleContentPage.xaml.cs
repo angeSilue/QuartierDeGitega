@@ -56,19 +56,21 @@ namespace AppareilApple
             {
                 Image = "images/resizeiphone.jpg",
                 Text = "Iphone",
-                //VerticalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
                 WidthRequest = 180,
                 HeightRequest = 100,
+                //FontSize = Device.GetNamedSize(NamedSize.Large,typeof(Button)),
+                //ContentLayout = new Button.ButtonContentLayout(Button.ButtonContentLayout.ImagePosition.Top,-50), Font = Font.OfSize("Arial",1),
                 HorizontalOptions = LayoutOptions.Center
 
             };
 
             Button MacBookButton = new Button()
             {
-                Image = "resizemacbook.jpg",
+                Image = "images/resizemacbook.jpg",
                 Text = "MacBook",
                 HorizontalOptions = LayoutOptions.Center,
-                //VerticalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
                 WidthRequest = 180,
                 HeightRequest = 100
 
@@ -76,10 +78,10 @@ namespace AppareilApple
 
             Button accessoriesButton = new Button()
             {
-                Image = "resizeAccessoire.jpg",
+                Image = "Images/resizeAccessoire.jpg",
                 Text = "Accessoires",
                 HorizontalOptions = LayoutOptions.Center,
-                //VerticalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
                 WidthRequest = 180,
                 HeightRequest = 100
 
@@ -87,10 +89,10 @@ namespace AppareilApple
 
             Button IpadButton = new Button()
             {
-                Image = "resizeipad.jpg",
+                Image = "Images/resizeipad.jpg",
                 Text = "Ipad",
                 HorizontalOptions = LayoutOptions.Center,
-               // VerticalOptions = LayoutOptions.Fill,
+               VerticalOptions = LayoutOptions.Fill,
                 WidthRequest = 180,
                 HeightRequest = 100
 
@@ -98,6 +100,11 @@ namespace AppareilApple
 
             this.Content = new StackLayout
             {
+                Spacing = 0,
+                Padding = new Thickness(10),
+                Orientation = StackOrientation.Vertical,
+                VerticalOptions = LayoutOptions.FillAndExpand,
+
                 Children =
                 {
                     titreLabel,
